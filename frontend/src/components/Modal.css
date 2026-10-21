@@ -1,0 +1,25 @@
+.modal-bg {
+  position: fixed; inset: 0;
+  background: rgba(47, 65, 86, 0.55);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000; padding: 16px; box-sizing: border-box;
+}
+.modal-form {
+  background: var(--white);
+  color: var(--gray-800);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(47, 65, 86, 0.3);
+  padding: 28px 24px 22px;
+  width: 440px; max-width: 100%; max-height: 92vh; overflow-y: auto;
+  box-sizing: border-box;
+  display: flex; flex-direction: column; align-items: center;
+}
+.modal-form h3 { margin: 0 0 16px; color: var(--gray-900); text-align: center; }
+.modal-form .form-group { width: 100%; margin-bottom: 12px; }
+.modal-form label { display: block; margin-bottom: 4px; font-weight: 500; color: var(--gray-700); font-size: 0.92rem; }
+.modal-form input, .modal-form select, .modal-form textarea { width: 100%; box-sizing: border-box; margin: 0; }
+.modal-form input[type='checkbox'] { width: auto; }
+.modal-texto { text-align: center; color: var(--gray-700); margin: 0 0 14px; }
+.modal-acciones { display: flex; gap: 10px; width: 100%; margin-top: 10px; }
+.modal-acciones button { flex: 1; }
+.modal-form .aviso { width: 100%; box-sizing: border-box; }
